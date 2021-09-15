@@ -5,10 +5,177 @@
   </head>
   <style>
     img {
-      width: 50%;
+      width: 100%;
+    }
+    body {
+      font-family: Verdana, sans-serif;
+      margin: 0;
+    }
+    .slideshow-container {
+      max-width: 1000px;
+      position: relative;
+      margin: auto;
+    }
+    .slideshow-container2 {
+      max-width: 850px;
+      position: relative;
+      margin: auto;
+    }
+    .button {
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 20px;
+      margin: 4px 2px;
+      cursor: pointer;
+      background-color: rgb(157, 96, 96);
+      margin-left: 45%;
+    }
+    #loadingImage {
+      max-width: 200px;
+      position: relative;
+      margin: auto;
+    }
+    #loadingImage2 {
+      max-width: 200px;
+      position: relative;
+      margin: auto;
+    }
+    #loadingImage3 {
+      max-width: 200px;
+      position: relative;
+      margin: auto;
+    }
+    #loadingImage4 {
+      max-width: 200px;
+      position: relative;
+      margin: auto;
+    }
+    #loadingImage5 {
+      max-width: 200px;
+      position: relative;
+      margin: auto;
+    }
+    #loadingImage6 {
+      max-width: 200px;
+      position: relative;
+      margin: auto;
+    }
+    #loadingImage7 {
+      max-width: 200px;
+      position: relative;
+      margin: auto;
+    }
+    #loadingImage8 {
+      max-width: 200px;
+      position: relative;
+      margin: auto;
+    }
+    #loadingImage9 {
+      max-width: 200px;
+      position: relative;
+      margin: auto;
+    }
+    #loadingImage10 {
+      max-width: 200px;
+      position: relative;
+      margin: auto;
+    }
+    #loadingImage11 {
+      max-width: 200px;
+      position: relative;
+      margin: auto;
+    }
+    #loadingImage12 {
+      max-width: 200px;
+      position: relative;
+      margin: auto;
+    }
+    #loadingImage13 {
+      max-width: 200px;
+      position: relative;
+      margin: auto;
+    }
+    #loadingImage14 {
+      max-width: 200px;
+      position: relative;
+      margin: auto;
+    }
+    #loadingImage15 {
+      max-width: 200px;
+      position: relative;
+      margin: auto;
+    }
+    #loadingImage16 {
+      max-width: 200px;
+      position: relative;
+      margin: auto;
     }
   </style>
+  <script type="text/javascript">
+    var count = 0;
+    function showImage() {
+      count++;
+      if (count == 1) {
+        document.getElementById("loadingImage").style.visibility = "visible";
+      } else if (count == 2) {
+        document.getElementById("loadingImage2").style.visibility = "visible";
+      } else if (count == 3) {
+        document.getElementById("loadingImage3").style.visibility = "visible";
+      } else if (count == 4) {
+        document.getElementById("loadingImage4").style.visibility = "visible";
+      } else if (count == 5) {
+        document.getElementById("loadingImage5").style.visibility = "visible";
+      } else if (count == 6) {
+        document.getElementById("loadingImage6").style.visibility = "visible";
+      } else if (count == 7) {
+        document.getElementById("loadingImage7").style.visibility = "visible";
+      } else if (count == 8) {
+        document.getElementById("loadingImage8").style.visibility = "visible";
+      } else if (count == 9) {
+        document.getElementById("loadingImage9").style.visibility = "visible";
+      } else if (count == 10) {
+        document.getElementById("loadingImage10").style.visibility = "visible";
+      } else if (count == 11) {
+        document.getElementById("loadingImage11").style.visibility = "visible";
+      } else if (count == 12) {
+        document.getElementById("loadingImage12").style.visibility = "visible";
+      } else if (count == 13) {
+        document.getElementById("loadingImage13").style.visibility = "visible";
+      } else if (count == 14) {
+        document.getElementById("loadingImage14").style.visibility = "visible";
+      } else if (count == 15) {
+        document.getElementById("loadingImage15").style.visibility = "visible";
+      } else if (count == 6) {
+        document.getElementById("loadingImage16").style.visibility = "visible";
+      }
+    }
+  </script>
   <body>
-    <img src="Pen.png" />
+    <div class="slideshow-container">
+      <img src="Pen2.png" />
+      <button class="button" onclick="showImage();">Feed</button>
+    </div>
+    <div class="slideshow-container2">
+      <img id="loadingImage" src="nuts.png" style="visibility: hidden" />
+      <img id="loadingImage2" src="nuts.png" style="visibility: hidden" />
+      <img id="loadingImage3" src="nuts.png" style="visibility: hidden" />
+      <img id="loadingImage4" src="nuts.png" style="visibility: hidden" />
+      <img id="loadingImage5" src="nuts.png" style="visibility: hidden" />
+      <img id="loadingImage6" src="nuts.png" style="visibility: hidden" />
+      <img id="loadingImage7" src="nuts.png" style="visibility: hidden" />
+      <img id="loadingImage8" src="nuts.png" style="visibility: hidden" />
+      <img id="loadingImage9" src="nuts.png" style="visibility: hidden" />
+      <img id="loadingImage10" src="nuts.png" style="visibility: hidden" />
+      <img id="loadingImage11" src="nuts.png" style="visibility: hidden" />
+      <img id="loadingImage12" src="nuts.png" style="visibility: hidden" />
+      <img id="loadingImage13" src="nuts.png" style="visibility: hidden" />
+      <img id="loadingImage14" src="nuts.png" style="visibility: hidden" />
+      <img id="loadingImage15" src="nuts.png" style="visibility: hidden" />
+      <img id="loadingImage16" src="nuts.png" style="visibility: hidden" />
+    </div>
   </body>
 </html>
